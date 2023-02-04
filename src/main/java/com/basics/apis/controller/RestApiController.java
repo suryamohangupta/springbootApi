@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 public class RestApiController {
 
     @RequestMapping(path = AppConstants.TEST_URI, method = RequestMethod.GET, headers = "Accept=application/json", produces = "application/json")
-    public ApiResponse getUser() {
-        return new ApiResponse(HttpStatus.OK.value(), AppConstants.SUCCESS_MESSAGE,HttpStatus.OK);
+    public ApiResponse doTest() {
+        return new ApiResponse(HttpStatus.OK.value(), AppConstants.SUCCESS_MESSAGE, HttpStatus.OK);
     }
 }
