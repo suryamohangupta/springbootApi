@@ -1,12 +1,12 @@
-package com.cars24.auction;
+package com.basics.apis;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CarAuctionSystemApplication {
+public class SpringBootBasicsSystemApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CarAuctionSystemApplication.class, args);
+        SpringApplication.run(SpringBootBasicsSystemApplication.class, args);
     }
 }

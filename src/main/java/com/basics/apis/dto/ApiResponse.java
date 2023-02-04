@@ -1,4 +1,4 @@
-package com.cars24.auction.dto;
+package com.basics.apis.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
