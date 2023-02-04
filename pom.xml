@@ -16,10 +16,6 @@
     <name>SpringBoot Basic Rest Api System</name>
     <description>SpringBoot Basic Rest Api System</description>
 
-    <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
-    </properties>
 
     <dependencies>
         <dependency>
